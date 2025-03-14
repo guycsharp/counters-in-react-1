@@ -1,3 +1,4 @@
-import React, { createContext } from "react";
+import { createContext } from 'react';
 
-export const GlobalContext = createContext();
+// Step 1: Create a Context object
+export const GlobalContext = createContext(); // This context will hold global state and its updater

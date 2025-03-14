@@ -1,0 +1,67 @@
+/* Counter.css */
+
+/* Style for the counter container */
+#Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    font-family: 'Arial', sans-serif;
+    color: #000;
+  }
+  
+  /* Align count and buttons horizontally in one line */
+  #Counter > div {
+    display: flex; /* Make children (counter and buttons) inline-flex */
+    align-items: center; /* Vertically center align */
+    justify-content: center; /* Horizontally align the items */
+    gap: 10px; /* Spacing between elements */
+  }
+  
+  /* Style for the count display */
+  #Count {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #000;
+    background: pink; /* Pink counter */
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+  
+  /* Increment button styles (dark blue) */
+  #increase {
+    background: #003399; /* Dark blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #increase:hover {
+    background: #0056b3;
+  }
+  
+  /* Decrement button styles (red) */
+  #decrease {
+    background: #e60000; /* Red */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #decrease:hover {
+    background: #cc0000;
+  }
+  
